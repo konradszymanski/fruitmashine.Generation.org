@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Mashine Grid</title>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="intro grid-item">FRUIT MACHINE</div>
+        <div id='reels' class='reel grid-item r1'>
+            🍇
+            🍈
+            🍉
+            🍊
+            🍋
+            🍌
+            🍍
+            🥭
+            🍎
+            🍏
+            🍐
+            🍑
+            🍒
+            🍓
+        </div>
+        <button class="hold h1">HOLD</button>
+        <div id='reels' class='reel grid-item r2'>
+
+            🍇
+            🍈
+            🍉
+            🍊
+            🍋
+            🍌
+            🍍
+            🥭
+            🍎
+            🍏
+            🍐
+            🍑
+            🍒
+            🍓
+        </div>
+        <button class="hold h2">HOLD</button>
+        <div id='reels' class='reel grid-item r3'>
+            🍇
+            🍈
+            🍉
+            🍊
+            🍋
+            🍌
+            🍍
+            🥭
+            🍎
+            🍏
+            🍐
+            🍑
+            🍒
+            🍓
+        </div>
+        <button class="hold h3">HOLD</button>
+
+        <div class="leftButtons grid-item">
+            <button>RULES</button>
+            <button>CASHOUT</button>
+        </div>
+        <div class="middleButtons grid-item">
+            <button>STAKE</button>
+        </div>
+        <div class="rightButtons">
+            <div class="money grid-item">100 💰</div>
+            <button class='play' id='playButton'>PLAY</button>
+            <!-- <button onclick="scrollToBottom()">PLAY</button> -->
+        </div>
+
+    </div>
+    <p class='sizeMeter' id="screen"></p>
+
+    <script>
+        (function () {
+            window.onresize = displayWindowSize;
+            window.onload = displayWindowSize;
+
+            function displayWindowSize() {
+                let myWidth = window.innerWidth;
+                let myHeight = window.innerHeight;
+                // your size calculation code here
+                document.getElementById("screen").innerHTML = myWidth + "x" + myHeight;
+            };
+        })();
+
+    </script>
+    <script defer src="/script/script.js"></script>
+</body>
+
+</html>
