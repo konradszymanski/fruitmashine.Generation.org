@@ -9,3 +9,4 @@ added by me:<br>
 // user can change the bet<br>
 // inform about empty bet<br>
 // inform about too high bet<br>
+//test test
