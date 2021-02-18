@@ -10,3 +10,4 @@ added by me:<br>
 // inform about empty bet<br>
 // inform about too high bet<br>
 //test test
+//test2
