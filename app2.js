@@ -13,7 +13,7 @@ const o = "Orange";
 
 const reel1 = [a, b, c, d, a, b, c, d, a, b];
 const reel2 = Array.from(reel1);
-const reel3 = Array.from(reel1).sort(); 
+const reel3 = Array.from(reel1).sort();
 //add new fruits
 reel1.push(w, o);
 reel2.push(w, o);
@@ -78,7 +78,7 @@ while (money) {
             }
         } else if (holdCount == holdRatio) {
             holdCount = 0;
-            let hold = prompt('Press 1, 2, 3 to HOLD reel: ') 
+            let hold = prompt('Press 1, 2, 3 to HOLD reel: ')
 
             //pause string 
             if (hold.includes('dsa')) {
@@ -130,7 +130,7 @@ function getRandomInt(max) {
 }
 
 
-{/* <script>
+/* <script>
 let test = '12345'// a word i w ant to know if there is 10 inside
 let p1=1
 let p2=2
@@ -165,5 +165,4 @@ let p3=3
   
   console.log(
     [p1,p2,p3])
-</script> */}
-
+</script> */
